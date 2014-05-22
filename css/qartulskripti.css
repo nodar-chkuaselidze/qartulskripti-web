@@ -1,0 +1,23 @@
+body {
+  margin-top: 20px;
+  font-family: Sans-Serif;
+}
+
+header {
+  background-color: #5C7883;
+  color: white;
+  margin-bottom: 20px;
+}
+
+header .container {
+}
+
+header h1 {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+header h1 span {
+  color: orange;
+}
