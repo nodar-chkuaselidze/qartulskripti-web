@@ -53,5 +53,14 @@ div[role=menu] > .affix {
 }
 
 .qs-nav > li.active > a {
+  font-weight: bold;
   border-right: 2px solid #647D9A;
+}
+
+.qs-nav > li > a:hover {
+  background: inherit;
+}
+
+footer {
+  height: 200px;
 }
