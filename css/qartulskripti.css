@@ -21,3 +21,37 @@ header h1 {
 header h1 span {
   color: orange;
 }
+
+
+@media (max-width: 768px) {
+  div[role=menu] > .affix {
+    width: 213px;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 992px) {
+  div[role=menu] > .affix {
+    width: 213px;
+  }
+}
+
+@media (min-width: 1200px) {
+  div[role=menu] > .affix {
+    width: 263px;
+  }
+}
+
+div[role=menu] > .affix {
+  top: 10px;
+}
+
+.qs-nav > li > a {
+  padding: 1px 5px 2px 1px;
+  margin-right: 5px;
+  text-align: right;
+}
+
+.qs-nav > li.active > a {
+  border-right: 2px solid #647D9A;
+}
