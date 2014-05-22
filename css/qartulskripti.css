@@ -46,10 +46,13 @@ div[role=menu] > .affix {
   top: 10px;
 }
 
-.qs-nav > li > a {
-  padding: 1px 5px 2px 1px;
+.qs-nav > li {
   margin-right: 5px;
   text-align: right;
+}
+
+.qs-nav > li > a {
+  padding: 1px 5px 2px 1px;
 }
 
 .qs-nav > li.active > a {
@@ -59,6 +62,11 @@ div[role=menu] > .affix {
 
 .qs-nav > li > a:hover {
   background: inherit;
+}
+
+.lang-ref {
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 footer {
