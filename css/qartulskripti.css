@@ -14,12 +14,30 @@ header .container {
 
 header h1 {
   font-size: 20px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px auto 5px 50px;
 }
 
 header h1 span {
   color: orange;
+}
+
+.run-btn {
+  display: block;
+  width: 100px;
+  font-family: Verdana;
+  font-size: 14px;
+  color: #5E6790;
+  background-color: white;
+  border-radius: 0px;
+  position: absolute;
+  top: 20px;
+  right: 10%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.run-btn:hover {
+  border: 1px solid #5C7883;
 }
 
 
@@ -65,7 +83,7 @@ div[role=menu] > .affix {
 }
 
 .lang-ref {
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 18px;
 }
 
