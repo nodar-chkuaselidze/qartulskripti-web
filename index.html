@@ -10,10 +10,14 @@
   <link rel="stylesheet" href="css/qartulskripti.css">
 </head>
 <body data-spy="scroll" data-target="div[role=menu]">
+  <div id="code">
+    <textarea id="writeCode">თუ ჯანდაბა მეტია 2 ზე მაშინ alert(123);</textarea>
+    <textarea id="readCode" readonly></textarea>
+  </div>
   <header>
     <div class="container">
       <h1>ქართულ<span>სკრიპტი</span></h1>
-      <button class="btn run-btn">RUN</button>
+      <button id="run" class="btn run-btn">RUN</button>
     </div>
   </header>
   <div class="container" role="main">
@@ -47,7 +51,7 @@
           <br /><br />
           Suspendisse non scelerisque lectus. Sed magna mauris, imperdiet quis dignissim eget, lacinia et leo. Nullam elementum sapien pharetra, commodo purus non, consequat felis. Quisque gravida sollicitudin mi, non viverra nisl scelerisque non. Proin vitae justo nec justo suscipit imperdiet. Nunc tincidunt pretium urna. Sed eget lacus non turpis tempus iaculis ac eget urna. Nulla scelerisque mi a augue accumsan, pulvinar molestie sem vestibulum. Etiam a velit tincidunt, convallis purus in, suscipit dolor.
           <br /><br />
-          Aliquam sagittis nunc sed leo lacinia lobortis. Fusce viverra ipsum nec arcu tempor, eget consectetur dui dapibus. Suspendisse neque mi, molestie nec eros ut, dapibus interdum massa. Sed vel auctor est, id suscipit libero. Nullam vitae ultricies orci. Morbi lacus lacus, imperdiet eu eleifend vitae, commodo ut erat. Phasellus hendrerit quam dui. Nam a lacinia velit. Curabitur convallis viverra commodo. Suspendisse ut leo a tellus vehicula aliquet. Nunc faucibus sem ut accumsan aliquet. Quisque lobortis pretium lectus, ac tempus augue interdum at. In ultrices hendrerit erat, ac dignissim sem rutrum et. Ut porttitor pulvinar massa, a rhoncus sapien rutrum a. 
+          Aliquam sagittis nunc sed leo lacinia lobortis. Fusce viverra ipsum nec arcu tempor, eget consectetur dui dapibus. Suspendisse neque mi, molestie nec eros ut, dapibus interdum massa. Sed vel auctor est, id suscipit libero. Nullam vitae ultricies orci. Morbi lacus lacus, imperdiet eu eleifend vitae, commodo ut erat. Phasellus hendrerit quam dui. Nam a lacinia velit. Curabitur convallis viverra commodo. Suspendisse ut leo a tellus vehicula aliquet. Nunc faucibus sem ut accumsan aliquet. Quisque lobortis pretium lectus, ac tempus augue interdum at. In ultrices hendrerit erat, ac dignissim sem rutrum et. Ut porttitor pulvinar massa, a rhoncus sapien rutrum a.
         </div>
         <div id="ბრაუზერი">
           <h2> Browser </h2>
@@ -68,7 +72,7 @@
           <br /><br />
           Suspendisse non scelerisque lectus. Sed magna mauris, imperdiet quis dignissim eget, lacinia et leo. Nullam elementum sapien pharetra, commodo purus non, consequat felis. Quisque gravida sollicitudin mi, non viverra nisl scelerisque non. Proin vitae justo nec justo suscipit imperdiet. Nunc tincidunt pretium urna. Sed eget lacus non turpis tempus iaculis ac eget urna. Nulla scelerisque mi a augue accumsan, pulvinar molestie sem vestibulum. Etiam a velit tincidunt, convallis purus in, suscipit dolor.
           <br /><br />
-          Aliquam sagittis nunc sed leo lacinia lobortis. Fusce viverra ipsum nec arcu tempor, eget consectetur dui dapibus. Suspendisse neque mi, molestie nec eros ut, dapibus interdum massa. Sed vel auctor est, id suscipit libero. Nullam vitae ultricies orci. Morbi lacus lacus, imperdiet eu eleifend vitae, commodo ut erat. Phasellus hendrerit quam dui. Nam a lacinia velit. Curabitur convallis viverra commodo. Suspendisse ut leo a tellus vehicula aliquet. Nunc faucibus sem ut accumsan aliquet. Quisque lobortis pretium lectus, ac tempus augue interdum at. In ultrices hendrerit erat, ac dignissim sem rutrum et. Ut porttitor pulvinar massa, a rhoncus sapien rutrum a. 
+          Aliquam sagittis nunc sed leo lacinia lobortis. Fusce viverra ipsum nec arcu tempor, eget consectetur dui dapibus. Suspendisse neque mi, molestie nec eros ut, dapibus interdum massa. Sed vel auctor est, id suscipit libero. Nullam vitae ultricies orci. Morbi lacus lacus, imperdiet eu eleifend vitae, commodo ut erat. Phasellus hendrerit quam dui. Nam a lacinia velit. Curabitur convallis viverra commodo. Suspendisse ut leo a tellus vehicula aliquet. Nunc faucibus sem ut accumsan aliquet. Quisque lobortis pretium lectus, ac tempus augue interdum at. In ultrices hendrerit erat, ac dignissim sem rutrum et. Ut porttitor pulvinar massa, a rhoncus sapien rutrum a.
         </div>
       </div>
     </div>
@@ -78,5 +82,6 @@
   <script src="vendor/jquery/jquery-2.1.1.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="js/qartulskripti.js"></script>
+  <script src="js/mtavari.qs" type="text/qartulskripti"></script>
 </body>
 </html>
