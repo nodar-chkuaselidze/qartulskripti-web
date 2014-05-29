@@ -21,6 +21,41 @@ header h1 span {
   color: orange;
 }
 
+#code {
+  position: fixed;
+  z-index: 3;
+  color: black;
+  border: 1px solid #444;
+  display: none;
+
+  top: 20px;
+  bottom: 20px;
+  left: 40px;
+  right: 40px;
+  padding: 5px;
+  background-color: transparent;
+}
+
+#code > textarea {
+  border: 0px solid #ccc;
+  width: 50%;
+  height: 100%;
+  float: left;
+  resize: none;
+  padding: 5px;
+  color: white;
+  background-color: rgba(24, 26, 58, 0.9);
+  font-size: 13px;
+  font-family: Monaco,Consolas,"Lucida Console",monospace;
+}
+
+#code > #writeCode {
+  border-right-width: 1px;
+}
+
+#code > #readCode {
+}
+
 .run-btn {
   display: block;
   width: 100px;
@@ -42,9 +77,17 @@ header h1 span {
 
 
 @media (max-width: 768px) {
+  .code {
+    left: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
   div[role=menu] > .affix {
     width: 213px;
-    visibility: hidden;
+    position: static;
+    margin: 0 0 0 auto;
   }
 }
 
