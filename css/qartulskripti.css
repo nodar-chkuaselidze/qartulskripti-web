@@ -56,6 +56,42 @@ header h1 span {
 #code > #readCode {
 }
 
+#code button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: 0px;
+  padding: 5px;
+}
+
+#code > .console {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  bottom: 5px;
+  right: 0px;
+  background-color: white;
+  padding: 5px;
+}
+
+#code > .console > button {
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#console {
+  white-space: pre-line;
+  height: 100%;
+  overflow: scroll;
+  line-height: 15px;
+}
+
 .run-btn {
   display: block;
   width: 100px;
