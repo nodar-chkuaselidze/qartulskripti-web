@@ -2,7 +2,7 @@
 window.დაბეჭდე = ->
   არგუმენტები = Array.prototype.slice.apply arguments
 
-  console.log.apply null, არგუმენტები
+  console.log.apply console, არგუმენტები
   $("#console").append არგუმენტები.join ' '
   $("#console").append '\n'
 
@@ -47,7 +47,7 @@ $("#code > button").click ->
     კომპილირებული = ქართულსკრიპტი.დააკომპილირე წყარო, bare: on
     $("#readCode").text კომპილირებული
   დაიჭირე შეცდომა
-    კონსოლში შეცდომა
+    console.log შეცდომა
 
 დააკომპილირე()
 
