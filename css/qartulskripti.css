@@ -195,3 +195,7 @@ footer {
   right: 20px;
   top: 10px;
 }
+
+.table th, .table td {
+  text-align: center;
+}
