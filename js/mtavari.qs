@@ -49,5 +49,16 @@ $("#code > button").click ->
   დაიჭირე შეცდომა
     კონსოლში შეცდომა
 
-
 დააკომპილირე()
+
+$(".qartulskripti-code").each ->
+  კოდი   = $(ეს).html()
+  ღილაკი = $ '<button>დააკომპილირე</button>'
+  $(ეს).append ღილაკი
+
+  ღილაკი.click (e)->
+    $("#writeCode").val კოდი
+    $(".console").hide()
+    $("#code").show()
+    e.stopPropagation()
+    დააკომპილირე()

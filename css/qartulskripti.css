@@ -178,3 +178,22 @@ footer {
   padding: 2px;
   border-radius: 2px;
 }
+
+.qartulskripti-code {
+  white-space: pre;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 18px;
+  font-family: Consolas,"courier new";
+  position: relative;
+}
+
+.qartulskripti-code button {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
