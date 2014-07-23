@@ -1,0 +1,19 @@
+{
+  "name": "qs-web",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodar-chkuaselidze/qartulskripti-web.git"
+  },
+  "author": "Nodari Chkuaselidze",
+  "license": "NoLicense",
+  "bugs": {
+    "url": "https://github.com/nodar-chkuaselidze/qartulskripti-web/issues"
+  },
+  "homepage": "https://github.com/nodar-chkuaselidze/qartulskripti-web"
+}
