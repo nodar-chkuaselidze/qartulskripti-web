@@ -16,11 +16,11 @@
     "url": "https://github.com/nodar-chkuaselidze/qartulskripti-web/issues"
   },
   "homepage": "https://github.com/nodar-chkuaselidze/qartulskripti-web",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "cheerio": "^0.17.0",
     "ejs": "^1.0.0",
-    "gulp": "^3.8.6"
+    "gulp": "^3.8.6",
+    "q-io": "^1.11.3"
   }
 }
