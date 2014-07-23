@@ -204,7 +204,7 @@ footer {
   width: 50%;
   float: left;
   word-wrap: normal;
-  overflow: auto;
+  overflow: hidden;
   height: 100%;
 }
 
