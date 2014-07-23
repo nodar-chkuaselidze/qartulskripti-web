@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/nodar-chkuaselidze/qartulskripti-web",
   "devDependencies": {
+  },
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "ejs": "^1.0.0",
     "gulp": "^3.8.6"
   }
 }
