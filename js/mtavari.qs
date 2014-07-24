@@ -57,27 +57,11 @@ $("#code > button").click ->
 
 დააკომპილირე()
 
-$(".qartulskripti-code").each ->
-  კოდი    = $(ეს).text()
-  ჯს_კოდი = დააკომპილირე_კოდი(კოდი)
-  ღილაკი  = $ '<button>გაუშვი</button>'
+$(".qartulskripti-code button").click (e) ->
+  კოდი = $(this).parent().find('pre:first code').text()
 
-  ქს_სივრცე = $('<div></div>').html $.trim(კოდი)
-  ჯს_სივრცე = $ '<div></div>'
-
-  თუ ჯს_კოდი.ჯავასკრიპტი
-    ჯს_სივრცე.html $.trim(ჯს_კოდი.ჯავასკრიპტი)
-  თუარადა
-    alert ჯს_კოდი.შეცდომა
-
-  $(ეს).html ''
-  $(ეს).append ღილაკი
-  $(ეს).append ქს_სივრცე
-  $(ეს).append ჯს_სივრცე
-
-  ღილაკი.click (e)->
-    $("#writeCode").val კოდი
-    $(".console").hide()
-    $("#code").show()
-    e.stopPropagation()
-    დააკომპილირე()
+  $("#writeCode").val კოდი
+  $(".console").hide()
+  $("#code").show()
+  e.stopPropagation()
+  დააკომპილირე()
