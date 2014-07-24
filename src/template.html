@@ -36,7 +36,7 @@
                  var menuBlock = DOCS[i];
                  for(var j = 0; j < menuBlock.length; j++) {
                   var item = menuBlock[j];
-            %><li<%- (i == 0 && j == 0) ? ' class="active"' : ''%>><a href="<%= content[item].id %>"><%= content[item].name %></a></li>
+            %><li<%- (i == 0 && j == 0) ? ' class="active"' : ''%>><a href="#<%= content[item].id %>"><%= content[item].name %></a></li>
             <%   } %><li class="split-menu"></li>
             <% } %>
           </ul>
